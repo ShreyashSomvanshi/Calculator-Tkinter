@@ -3,5 +3,4 @@
 
 
 ## Calculator:
-<img src="calc.png" alt="Calculator" width="500" height="600">
-<img src =  >
+<img src="https://github.com/ShreyashSomvanshi/Calculator-Tkinter/blob/main/images/calc.png" alt="Calculator" width="500" height="600">

@@ -2,6 +2,7 @@ from tkinter import *
 root = Tk()
 
 root.title("Calculator")
+root.iconbitmap('C:/Users/Shreyash/Desktop/icon/favicon1.ico')
 
 a = Entry(root, width=35, borderwidth=5)
 a.grid(row=0, column=0, columnspan=3, padx=10,pady=10)
@@ -68,6 +69,11 @@ b7 = Button(root, text="7", padx=40, pady=20, command=lambda: clickbt(7))
 b8 = Button(root, text="8", padx=40, pady=20, command=lambda: clickbt(8))
 b9 = Button(root, text="9", padx=40, pady=20, command=lambda: clickbt(9))
 b0 = Button(root, text="0", padx=40, pady=20, command=lambda: clickbt(0))
+
+# buttonQuit = Button(root, text="OFF",padx=120, pady=10, command=root.quit, bg='#dbdbdb')
+# 
+# buttonQuit.grid(3,columnspan=3)
+
 bequal = Button(root,text = "=",padx=40, pady=20, command=eqlbt, bg="lightblue")
 bclear = Button(root,text = "CLR",padx=120, pady=10, command=clrbt, bg="lightgreen")
 bplus = Button(root,text = "+",padx=40, pady=20, command=addbt)
